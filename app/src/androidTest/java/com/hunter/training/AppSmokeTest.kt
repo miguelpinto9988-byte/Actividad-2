@@ -31,7 +31,10 @@ class AppSmokeTest {
             if(found.get()) return
             SystemClock.sleep(100)
         }
-        fail("Timed out waiting for $text")
+        screenshot("failure")
+        var visible = ""
+        s.onActivity { a -> visible = views(a.window.decorView).filterIsInstance<TextView>().joinToString(" | ") { it.text.toString() } }
+        fail("Timed out waiting for $text; screen: $visible")
     }
     private fun screenshot(name:String) {
         val instrumentation=InstrumentationRegistry.getInstrumentation()

@@ -52,8 +52,7 @@ jobs:
           profile: pixel_2
           disable-animations: true
           script: |
-            gradle --no-daemon connectedDebugAndroidTest
-            adb pull /sdcard/Android/data/com.hunter.training/files/screenshots/ dist/screenshots/
+            bash tools/device-test.sh
       - name: Upload reports and screenshots
         if: always()
         uses: actions/upload-artifact@v4
@@ -62,6 +61,7 @@ jobs:
           path: |
             app/build/reports/
             dist/screenshots/
+            dist/logcat.txt
       - name: Publish installable APK
         env:
           GH_TOKEN: ${{ github.token }}

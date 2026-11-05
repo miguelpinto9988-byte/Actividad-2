@@ -61,7 +61,7 @@ class MainActivity : Activity() {
     private fun work(task: () -> Unit, done: () -> Unit = {}) {
         worker.execute {
             try { task(); runOnUiThread { if(!isDestroyed) done() } }
-            catch(e: Exception) { runOnUiThread { saving = false; if(!isDestroyed) AlertDialog.Builder(this).setTitle("No se pudo completar")
+            catch(e: Exception) { android.util.Log.e("HunterTraining", "Local storage operation failed", e); runOnUiThread { saving = false; if(!isDestroyed) AlertDialog.Builder(this).setTitle("No se pudo completar")
                 .setMessage("Tus datos guardados se conservan. Inténtalo de nuevo.\n${e.localizedMessage}").setPositiveButton("Aceptar", null).show() } }
         }
     }
@@ -282,10 +282,12 @@ class MainActivity : Activity() {
     private fun finishWorkout(complete:Boolean) {
         if(saving) return
         val a=active ?: return; saving=true
+        android.util.Log.i("HunterTraining", "Saving session")
         val logs=Codec.logs(a.getString("logs")); val xp=RoutineGenerator.xp(logs)
         val now=System.currentTimeMillis()
         val session=Session(a.getString("id"),a.getString("name"),now,(now-a.getLong("start")).coerceAtLeast(0),a.getString("logs"),xp,complete)
         work({ db.dao().finish(session); refreshData() }) {
+            android.util.Log.i("HunterTraining", "Session saved; opening progress")
             active=null; persistActive(); saving=false; navigate("progress"); toast("Sesión guardada · +$xp XP")
         }
     }
