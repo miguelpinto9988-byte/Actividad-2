@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="22dp" android:background="@drawable/hero" android:orientation="vertical">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SISTEMA DE EVOLUCIÓN" android:textSize="11sp" android:letterSpacing="0.15" android:textColor="#C7B7FF"/>
+<TextView android:id="@+id/heroTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Tu siguiente nivel\nempieza hoy." android:textSize="32sp" android:fontFamily="sans-serif-black" android:textColor="#FFFFFF"/>
+<TextView android:id="@+id/heroInfo" style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp"/>
+<ProgressBar android:id="@+id/xpBar" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="20dp" android:progressTint="#8DE6DF" android:progressBackgroundTint="#433667"/>
+<Button android:id="@+id/heroAction" style="@style/Action" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="Crear mi rutina"/>
+</LinearLayout>

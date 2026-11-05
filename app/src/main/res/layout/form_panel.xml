@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+<TextView style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Objetivo"/>
+<Spinner android:id="@+id/goal" android:layout_width="match_parent" android:layout_height="52dp"/>
+<TextView style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Experiencia"/>
+<Spinner android:id="@+id/level" android:layout_width="match_parent" android:layout_height="52dp"/>
+<TextView style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Equipamiento disponible"/>
+<Spinner android:id="@+id/equipment" android:layout_width="match_parent" android:layout_height="52dp"/>
+<TextView style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Sesiones por semana (alternar con descanso)"/>
+<Spinner android:id="@+id/days" android:layout_width="match_parent" android:layout_height="52dp"/>
+</LinearLayout>

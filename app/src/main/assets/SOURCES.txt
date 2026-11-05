@@ -1,0 +1,6 @@
+Catálogo adaptado de Free Exercise DB (yuhonas), dominio público / Unlicense.
+https://github.com/yuhonas/free-exercise-db
+Consultado: 2026-11-05. Nombres e indicaciones breves adaptados al español.
+Cada ficha enlaza su registro original. Se agrupan cambios de agarre, implemento, inclinación y apoyo dentro de una familia; las variantes no aumentan el contador.
+Los estiramientos, movimientos articulares y modalidades cardiovasculares son familias independientes. Caminar y correr se pueden realizar al aire libre; las fuentes muestran cinta.
+No es una aplicación oficial de Solo Leveling. Identidad gráfica original.

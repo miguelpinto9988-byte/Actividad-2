@@ -1,0 +1,413 @@
+{
+  "Bodyweight_Squat": [
+    "Bodyweight_Squat",
+    "Barbell_Squat",
+    "Goblet_Squat",
+    "Front_Barbell_Squat",
+    "Freehand_Jump_Squat"
+  ],
+  "Barbell_Deadlift": [
+    "Barbell_Deadlift",
+    "Romanian_Deadlift",
+    "Sumo_Deadlift",
+    "Trap_Bar_Deadlift"
+  ],
+  "Dumbbell_Lunges": [
+    "Dumbbell_Lunges",
+    "Barbell_Lunge",
+    "Dumbbell_Rear_Lunge",
+    "Split_Squat_with_Dumbbells"
+  ],
+  "Dumbbell_Step_Ups": [
+    "Dumbbell_Step_Ups",
+    "Barbell_Step_Ups"
+  ],
+  "Leg_Press": [
+    "Leg_Press",
+    "Narrow_Stance_Leg_Press"
+  ],
+  "Leg_Extensions": [
+    "Leg_Extensions",
+    "Single-Leg_Leg_Extension"
+  ],
+  "Lying_Leg_Curls": [
+    "Lying_Leg_Curls",
+    "Seated_Leg_Curl",
+    "Standing_Leg_Curl"
+  ],
+  "Butt_Lift_Bridge": [
+    "Butt_Lift_Bridge",
+    "Barbell_Glute_Bridge",
+    "Barbell_Hip_Thrust",
+    "Single_Leg_Glute_Bridge"
+  ],
+  "Glute_Kickback": [
+    "Glute_Kickback",
+    "One-Legged_Cable_Kickback"
+  ],
+  "Thigh_Abductor": [
+    "Thigh_Abductor",
+    "Side_Leg_Raises"
+  ],
+  "Thigh_Adductor": [
+    "Thigh_Adductor",
+    "Cable_Hip_Adduction",
+    "Band_Hip_Adductions"
+  ],
+  "Standing_Calf_Raises": [
+    "Standing_Calf_Raises",
+    "Seated_Calf_Raise",
+    "Standing_Dumbbell_Calf_Raise"
+  ],
+  "Smith_Machine_Reverse_Calf_Raises": [
+    "Smith_Machine_Reverse_Calf_Raises"
+  ],
+  "Good_Morning": [
+    "Good_Morning",
+    "Band_Good_Morning",
+    "Seated_Good_Mornings"
+  ],
+  "Natural_Glute_Ham_Raise": [
+    "Natural_Glute_Ham_Raise",
+    "Floor_Glute-Ham_Raise"
+  ],
+  "Pushups": [
+    "Pushups",
+    "Incline_Push-Up",
+    "Decline_Push-Up",
+    "Push-Ups_-_Close_Triceps_Position"
+  ],
+  "Barbell_Bench_Press_-_Medium_Grip": [
+    "Barbell_Bench_Press_-_Medium_Grip",
+    "Dumbbell_Bench_Press",
+    "Incline_Dumbbell_Press",
+    "Machine_Bench_Press"
+  ],
+  "Dumbbell_Flyes": [
+    "Dumbbell_Flyes",
+    "Cable_Crossover",
+    "Butterfly"
+  ],
+  "Parallel_Bar_Dip": [
+    "Parallel_Bar_Dip",
+    "Bench_Dips",
+    "Ring_Dips"
+  ],
+  "Dumbbell_Shoulder_Press": [
+    "Dumbbell_Shoulder_Press",
+    "Barbell_Shoulder_Press",
+    "Arnold_Dumbbell_Press"
+  ],
+  "Side_Lateral_Raise": [
+    "Side_Lateral_Raise",
+    "Lateral_Raise_-_With_Bands"
+  ],
+  "Front_Dumbbell_Raise": [
+    "Front_Dumbbell_Raise",
+    "Front_Plate_Raise"
+  ],
+  "Reverse_Flyes": [
+    "Reverse_Flyes",
+    "Cable_Rear_Delt_Fly",
+    "Reverse_Machine_Flyes"
+  ],
+  "Face_Pull": [
+    "Face_Pull"
+  ],
+  "Pullups": [
+    "Pullups",
+    "Chin-Up",
+    "Band_Assisted_Pull-Up",
+    "Weighted_Pull_Ups"
+  ],
+  "Wide-Grip_Lat_Pulldown": [
+    "Wide-Grip_Lat_Pulldown",
+    "Close-Grip_Front_Lat_Pulldown",
+    "Underhand_Cable_Pulldowns"
+  ],
+  "Bent_Over_Barbell_Row": [
+    "Bent_Over_Barbell_Row",
+    "One-Arm_Dumbbell_Row",
+    "Seated_Cable_Rows",
+    "Inverted_Row"
+  ],
+  "Straight-Arm_Dumbbell_Pullover": [
+    "Straight-Arm_Dumbbell_Pullover",
+    "Straight-Arm_Pulldown"
+  ],
+  "Dumbbell_Shrug": [
+    "Dumbbell_Shrug",
+    "Barbell_Shrug"
+  ],
+  "Upright_Barbell_Row": [
+    "Upright_Barbell_Row",
+    "Standing_Dumbbell_Upright_Row"
+  ],
+  "Dumbbell_Bicep_Curl": [
+    "Dumbbell_Bicep_Curl",
+    "Barbell_Curl",
+    "Hammer_Curls",
+    "Preacher_Curl",
+    "Zottman_Curl"
+  ],
+  "Standing_Dumbbell_Triceps_Extension": [
+    "Standing_Dumbbell_Triceps_Extension",
+    "Triceps_Pushdown",
+    "EZ-Bar_Skullcrusher",
+    "Tricep_Dumbbell_Kickback"
+  ],
+  "Palms-Up_Dumbbell_Wrist_Curl_Over_A_Bench": [
+    "Palms-Up_Dumbbell_Wrist_Curl_Over_A_Bench",
+    "Cable_Wrist_Curl"
+  ],
+  "Palms-Down_Dumbbell_Wrist_Curl_Over_A_Bench": [
+    "Palms-Down_Dumbbell_Wrist_Curl_Over_A_Bench"
+  ],
+  "Dumbbell_Lying_Pronation": [
+    "Dumbbell_Lying_Pronation",
+    "Dumbbell_Lying_Supination"
+  ],
+  "Plate_Pinch": [
+    "Plate_Pinch"
+  ],
+  "Farmers_Walk": [
+    "Farmers_Walk",
+    "Rickshaw_Carry"
+  ],
+  "External_Rotation": [
+    "External_Rotation",
+    "External_Rotation_with_Band",
+    "External_Rotation_with_Cable"
+  ],
+  "Cable_Internal_Rotation": [
+    "Cable_Internal_Rotation",
+    "Internal_Rotation_with_Band"
+  ],
+  "Scapular_Pull-Up": [
+    "Scapular_Pull-Up"
+  ],
+  "Crunches": [
+    "Crunches",
+    "Cable_Crunch",
+    "Reverse_Crunch",
+    "Air_Bike",
+    "Sit-Up"
+  ],
+  "Plank": [
+    "Plank",
+    "Side_Bridge"
+  ],
+  "Flat_Bench_Lying_Leg_Raise": [
+    "Flat_Bench_Lying_Leg_Raise",
+    "Hanging_Leg_Raise",
+    "Knee_Hip_Raise_On_Parallel_Bars"
+  ],
+  "Dead_Bug": [
+    "Dead_Bug"
+  ],
+  "Ab_Roller": [
+    "Ab_Roller",
+    "Barbell_Ab_Rollout"
+  ],
+  "Russian_Twist": [
+    "Russian_Twist",
+    "Plate_Twist"
+  ],
+  "Pallof_Press": [
+    "Pallof_Press"
+  ],
+  "Standing_Cable_Wood_Chop": [
+    "Standing_Cable_Wood_Chop",
+    "Standing_Cable_Lift"
+  ],
+  "Dumbbell_Side_Bend": [
+    "Dumbbell_Side_Bend",
+    "Barbell_Side_Bend"
+  ],
+  "Superman": [
+    "Superman",
+    "Hyperextensions_Back_Extensions"
+  ],
+  "Stomach_Vacuum": [
+    "Stomach_Vacuum"
+  ],
+  "One-Arm_Kettlebell_Swings": [
+    "One-Arm_Kettlebell_Swings"
+  ],
+  "Kettlebell_Turkish_Get-Up_Lunge_style": [
+    "Kettlebell_Turkish_Get-Up_Lunge_style",
+    "Kettlebell_Turkish_Get-Up_Squat_style"
+  ],
+  "Kettlebell_Windmill": [
+    "Kettlebell_Windmill",
+    "Advanced_Kettlebell_Windmill"
+  ],
+  "Kettlebell_Halo": [
+    "Kettlebell_Halo"
+  ],
+  "Kettlebell_Figure_8": [
+    "Kettlebell_Figure_8"
+  ],
+  "Power_Clean": [
+    "Power_Clean",
+    "Hang_Clean",
+    "Clean",
+    "Dumbbell_Clean"
+  ],
+  "Snatch": [
+    "Snatch",
+    "Power_Snatch",
+    "Hang_Snatch"
+  ],
+  "Split_Jerk": [
+    "Split_Jerk",
+    "Power_Jerk",
+    "Push_Press"
+  ],
+  "Medicine_Ball_Chest_Pass": [
+    "Medicine_Ball_Chest_Pass"
+  ],
+  "Overhead_Slam": [
+    "Overhead_Slam",
+    "One-Arm_Medicine_Ball_Slam"
+  ],
+  "Medicine_Ball_Scoop_Throw": [
+    "Medicine_Ball_Scoop_Throw"
+  ],
+  "Sled_Push": [
+    "Sled_Push",
+    "Prowler_Sprint"
+  ],
+  "Sled_Drag_-_Harness": [
+    "Sled_Drag_-_Harness",
+    "Backward_Drag"
+  ],
+  "Tire_Flip": [
+    "Tire_Flip"
+  ],
+  "Rope_Climb": [
+    "Rope_Climb"
+  ],
+  "Battling_Ropes": [
+    "Battling_Ropes"
+  ],
+  "Rope_Jumping": [
+    "Rope_Jumping"
+  ],
+  "Walking_Treadmill": [
+    "Walking_Treadmill"
+  ],
+  "Running_Treadmill": [
+    "Running_Treadmill",
+    "Jogging_Treadmill",
+    "Wind_Sprints"
+  ],
+  "Bicycling": [
+    "Bicycling",
+    "Bicycling_Stationary",
+    "Recumbent_Bike"
+  ],
+  "Rowing_Stationary": [
+    "Rowing_Stationary"
+  ],
+  "Elliptical_Trainer": [
+    "Elliptical_Trainer"
+  ],
+  "Stairmaster": [
+    "Stairmaster",
+    "Step_Mill"
+  ],
+  "Skating": [
+    "Skating"
+  ],
+  "Mountain_Climbers": [
+    "Mountain_Climbers"
+  ],
+  "Inchworm": [
+    "Inchworm"
+  ],
+  "Carioca_Quick_Step": [
+    "Carioca_Quick_Step"
+  ],
+  "Standing_Long_Jump": [
+    "Standing_Long_Jump"
+  ],
+  "Box_Jump_Multiple_Response": [
+    "Box_Jump_Multiple_Response",
+    "Front_Box_Jump",
+    "Lateral_Box_Jump"
+  ],
+  "Balance_Board": [
+    "Balance_Board"
+  ],
+  "Ankle_Circles": [
+    "Ankle_Circles"
+  ],
+  "Arm_Circles": [
+    "Arm_Circles",
+    "Shoulder_Circles"
+  ],
+  "Standing_Hip_Circles": [
+    "Standing_Hip_Circles",
+    "Hip_Circles_prone"
+  ],
+  "Cat_Stretch": [
+    "Cat_Stretch"
+  ],
+  "Childs_Pose": [
+    "Childs_Pose"
+  ],
+  "Hamstring_Stretch": [
+    "Hamstring_Stretch",
+    "Seated_Floor_Hamstring_Stretch",
+    "90_90_Hamstring"
+  ],
+  "Quad_Stretch": [
+    "Quad_Stretch",
+    "All_Fours_Quad_Stretch"
+  ],
+  "Kneeling_Hip_Flexor": [
+    "Kneeling_Hip_Flexor"
+  ],
+  "Standing_Gastrocnemius_Calf_Stretch": [
+    "Standing_Gastrocnemius_Calf_Stretch",
+    "Standing_Soleus_And_Achilles_Stretch"
+  ],
+  "Adductor_Groin": [
+    "Adductor_Groin",
+    "Side_Lying_Groin_Stretch"
+  ],
+  "Seated_Glute": [
+    "Seated_Glute",
+    "Ankle_On_The_Knee",
+    "Lying_Glute"
+  ],
+  "Chest_And_Front_Of_Shoulder_Stretch": [
+    "Chest_And_Front_Of_Shoulder_Stretch",
+    "Behind_Head_Chest_Stretch"
+  ],
+  "Shoulder_Stretch": [
+    "Shoulder_Stretch"
+  ],
+  "Triceps_Stretch": [
+    "Triceps_Stretch",
+    "Overhead_Triceps"
+  ],
+  "Standing_Biceps_Stretch": [
+    "Standing_Biceps_Stretch"
+  ],
+  "Kneeling_Forearm_Stretch": [
+    "Kneeling_Forearm_Stretch"
+  ],
+  "Side_Neck_Stretch": [
+    "Side_Neck_Stretch"
+  ],
+  "Middle_Back_Stretch": [
+    "Middle_Back_Stretch",
+    "Upper_Back_Stretch"
+  ],
+  "Spinal_Stretch": [
+    "Spinal_Stretch",
+    "Lying_Crossover"
+  ]
+}

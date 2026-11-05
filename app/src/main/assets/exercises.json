@@ -1,0 +1,1713 @@
+[
+  {
+    "id": 1,
+    "family": "Bodyweight_Squat",
+    "name": "Sentadilla",
+    "pattern": "legs",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Flexiona caderas y rodillas manteniendo los talones apoyados. Sube sin dejar que las rodillas colapsen hacia dentro.",
+    "muscles": "Cuádriceps",
+    "variants": "Barbell Squat, Goblet Squat, Front Barbell Squat, Freehand Jump Squat",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Bodyweight_Squat.json",
+    "sourceIds": [
+      "Bodyweight_Squat",
+      "Barbell_Squat",
+      "Goblet_Squat",
+      "Front_Barbell_Squat",
+      "Freehand_Jump_Squat"
+    ]
+  },
+  {
+    "id": 2,
+    "family": "Barbell_Deadlift",
+    "name": "Peso muerto",
+    "pattern": "hinge",
+    "equipment": "Barra",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Acerca la barra a las piernas y empuja el suelo. Extiende la cadera sin redondear la espalda ni inclinarte hacia atrás al terminar.",
+    "muscles": "Zona lumbar",
+    "variants": "Romanian Deadlift, Sumo Deadlift, Trap Bar Deadlift",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Barbell_Deadlift.json",
+    "sourceIds": [
+      "Barbell_Deadlift",
+      "Romanian_Deadlift",
+      "Sumo_Deadlift",
+      "Trap_Bar_Deadlift"
+    ]
+  },
+  {
+    "id": 3,
+    "family": "Dumbbell_Lunges",
+    "name": "Zancada",
+    "pattern": "legs",
+    "equipment": "Mancuernas",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Da un paso y baja ambas rodillas con control. Empuja con la pierna de apoyo y alterna lados; cuenta repeticiones por lado.",
+    "muscles": "Cuádriceps",
+    "variants": "Barbell Lunge, Dumbbell Rear Lunge, Split Squat with Dumbbells",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dumbbell_Lunges.json",
+    "sourceIds": [
+      "Dumbbell_Lunges",
+      "Barbell_Lunge",
+      "Dumbbell_Rear_Lunge",
+      "Split_Squat_with_Dumbbells"
+    ]
+  },
+  {
+    "id": 4,
+    "family": "Dumbbell_Step_Ups",
+    "name": "Subida a escalón",
+    "pattern": "legs",
+    "equipment": "Mancuernas y banco",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Apoya todo el pie en un escalón firme y bajo. Sube con esa pierna sin impulsarte con la de atrás y desciende despacio.",
+    "muscles": "Cuádriceps",
+    "variants": "Barbell Step Ups",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dumbbell_Step_Ups.json",
+    "sourceIds": [
+      "Dumbbell_Step_Ups",
+      "Barbell_Step_Ups"
+    ]
+  },
+  {
+    "id": 5,
+    "family": "Leg_Press",
+    "name": "Prensa de piernas",
+    "pattern": "legs",
+    "equipment": "Máquina",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Apoya la espalda y coloca los pies en la plataforma. Flexiona sin despegar la pelvis y empuja sin bloquear las rodillas.",
+    "muscles": "Cuádriceps",
+    "variants": "Narrow Stance Leg Press",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Leg_Press.json",
+    "sourceIds": [
+      "Leg_Press",
+      "Narrow_Stance_Leg_Press"
+    ]
+  },
+  {
+    "id": 6,
+    "family": "Leg_Extensions",
+    "name": "Extensión de rodilla",
+    "pattern": "legs",
+    "equipment": "Máquina",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Alinea la rodilla con el eje de la máquina. Extiende con control y baja sin golpear los topes.",
+    "muscles": "Cuádriceps",
+    "variants": "Single-Leg Leg Extension",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Leg_Extensions.json",
+    "sourceIds": [
+      "Leg_Extensions",
+      "Single-Leg_Leg_Extension"
+    ]
+  },
+  {
+    "id": 7,
+    "family": "Lying_Leg_Curls",
+    "name": "Curl femoral",
+    "pattern": "hinge",
+    "equipment": "Máquina",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Ajusta el rodillo sobre la parte baja de las pantorrillas. Flexiona las rodillas sin levantar la pelvis y vuelve despacio.",
+    "muscles": "Isquiotibiales",
+    "variants": "Seated Leg Curl, Standing Leg Curl",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Lying_Leg_Curls.json",
+    "sourceIds": [
+      "Lying_Leg_Curls",
+      "Seated_Leg_Curl",
+      "Standing_Leg_Curl"
+    ]
+  },
+  {
+    "id": 8,
+    "family": "Butt_Lift_Bridge",
+    "name": "Puente de glúteos",
+    "pattern": "hinge",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Tumbado boca arriba, apoya los pies y eleva la pelvis. Aprieta glúteos sin arquear la zona lumbar.",
+    "muscles": "Glúteos",
+    "variants": "Barbell Glute Bridge, Barbell Hip Thrust, Single Leg Glute Bridge",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Butt_Lift_Bridge.json",
+    "sourceIds": [
+      "Butt_Lift_Bridge",
+      "Barbell_Glute_Bridge",
+      "Barbell_Hip_Thrust",
+      "Single_Leg_Glute_Bridge"
+    ]
+  },
+  {
+    "id": 9,
+    "family": "Glute_Kickback",
+    "name": "Patada de glúteo",
+    "pattern": "hinge",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "En cuadrupedia, extiende una cadera manteniendo el abdomen activo. Evita girar la pelvis; repite por lado.",
+    "muscles": "Glúteos",
+    "variants": "One-Legged Cable Kickback",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Glute_Kickback.json",
+    "sourceIds": [
+      "Glute_Kickback",
+      "One-Legged_Cable_Kickback"
+    ]
+  },
+  {
+    "id": 10,
+    "family": "Thigh_Abductor",
+    "name": "Abducción de cadera",
+    "pattern": "legs",
+    "equipment": "Máquina",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Con el tronco apoyado, separa las piernas de forma controlada. Regresa sin dejar caer la carga.",
+    "muscles": "Abductores",
+    "variants": "Side Leg Raises",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Thigh_Abductor.json",
+    "sourceIds": [
+      "Thigh_Abductor",
+      "Side_Leg_Raises"
+    ]
+  },
+  {
+    "id": 11,
+    "family": "Thigh_Adductor",
+    "name": "Aducción de cadera",
+    "pattern": "legs",
+    "equipment": "Máquina",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Acerca las piernas con un recorrido cómodo y sin impulso. Regresa lentamente manteniendo la pelvis estable.",
+    "muscles": "Aductores",
+    "variants": "Cable Hip Adduction, Band Hip Adductions",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Thigh_Adductor.json",
+    "sourceIds": [
+      "Thigh_Adductor",
+      "Cable_Hip_Adduction",
+      "Band_Hip_Adductions"
+    ]
+  },
+  {
+    "id": 12,
+    "family": "Standing_Calf_Raises",
+    "name": "Elevación de talones",
+    "pattern": "legs",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Sujétate a un apoyo estable y eleva los talones. Desciende lentamente sin rebotar.",
+    "muscles": "Pantorrillas",
+    "variants": "Seated Calf Raise, Standing Dumbbell Calf Raise",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Standing_Calf_Raises.json",
+    "sourceIds": [
+      "Standing_Calf_Raises",
+      "Seated_Calf_Raise",
+      "Standing_Dumbbell_Calf_Raise"
+    ]
+  },
+  {
+    "id": 13,
+    "family": "Smith_Machine_Reverse_Calf_Raises",
+    "name": "Elevación de puntas",
+    "pattern": "legs",
+    "equipment": "Máquina Smith",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Con apoyo estable y talones asentados, eleva la parte delantera de los pies. Usa poca carga y un recorrido controlado.",
+    "muscles": "Pantorrillas",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Smith_Machine_Reverse_Calf_Raises.json",
+    "sourceIds": [
+      "Smith_Machine_Reverse_Calf_Raises"
+    ]
+  },
+  {
+    "id": 14,
+    "family": "Good_Morning",
+    "name": "Buenos días",
+    "pattern": "hinge",
+    "equipment": "Barra",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Con una barra ligera apoyada sobre la espalda alta, lleva las caderas atrás. Mantén la columna estable y vuelve extendiendo las caderas.",
+    "muscles": "Isquiotibiales",
+    "variants": "Band Good Morning, Seated Good Mornings",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Good_Morning.json",
+    "sourceIds": [
+      "Good_Morning",
+      "Band_Good_Morning",
+      "Seated_Good_Mornings"
+    ]
+  },
+  {
+    "id": 15,
+    "family": "Natural_Glute_Ham_Raise",
+    "name": "Curl nórdico",
+    "pattern": "hinge",
+    "equipment": "Anclaje de tobillos",
+    "level": 3,
+    "unit": "reps",
+    "instructions": "Asegura los tobillos con un soporte adecuado. Desde rodillas, baja el cuerpo alineado y usa las manos para amortiguar; requiere progresión.",
+    "muscles": "Isquiotibiales",
+    "variants": "Floor Glute-Ham Raise",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Natural_Glute_Ham_Raise.json",
+    "sourceIds": [
+      "Natural_Glute_Ham_Raise",
+      "Floor_Glute-Ham_Raise"
+    ]
+  },
+  {
+    "id": 16,
+    "family": "Pushups",
+    "name": "Flexión de brazos",
+    "pattern": "push",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Apoya las manos bajo los hombros y mantén el cuerpo alineado. Baja el pecho con control y empuja; usa una pared si necesitas reducir la carga.",
+    "muscles": "Pectorales",
+    "variants": "Incline Push-Up, Decline Push-Up, Push-Ups - Close Triceps Position",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Pushups.json",
+    "sourceIds": [
+      "Pushups",
+      "Incline_Push-Up",
+      "Decline_Push-Up",
+      "Push-Ups_-_Close_Triceps_Position"
+    ]
+  },
+  {
+    "id": 17,
+    "family": "Barbell_Bench_Press_-_Medium_Grip",
+    "name": "Press de pecho",
+    "pattern": "push",
+    "equipment": "Barra y banco",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Apoya pies y espalda en un banco estable. Baja la barra hacia el pecho con control; usa soportes de seguridad o ayuda.",
+    "muscles": "Pectorales",
+    "variants": "Dumbbell Bench Press, Incline Dumbbell Press, Machine Bench Press",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Barbell_Bench_Press_-_Medium_Grip.json",
+    "sourceIds": [
+      "Barbell_Bench_Press_-_Medium_Grip",
+      "Dumbbell_Bench_Press",
+      "Incline_Dumbbell_Press",
+      "Machine_Bench_Press"
+    ]
+  },
+  {
+    "id": 18,
+    "family": "Dumbbell_Flyes",
+    "name": "Apertura de pecho",
+    "pattern": "push",
+    "equipment": "Mancuernas y banco",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "En un banco, abre los brazos con los codos ligeramente flexionados. No bajes más allá de un rango cómodo; vuelve sin chocar las pesas.",
+    "muscles": "Pectorales",
+    "variants": "Cable Crossover, Butterfly",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dumbbell_Flyes.json",
+    "sourceIds": [
+      "Dumbbell_Flyes",
+      "Cable_Crossover",
+      "Butterfly"
+    ]
+  },
+  {
+    "id": 19,
+    "family": "Parallel_Bar_Dip",
+    "name": "Fondos",
+    "pattern": "push",
+    "equipment": "Paralelas",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Sostente en barras firmes y flexiona los codos hasta un rango cómodo. Empuja sin encoger los hombros.",
+    "muscles": "Tríceps",
+    "variants": "Bench Dips, Ring Dips",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Parallel_Bar_Dip.json",
+    "sourceIds": [
+      "Parallel_Bar_Dip",
+      "Bench_Dips",
+      "Ring_Dips"
+    ]
+  },
+  {
+    "id": 20,
+    "family": "Dumbbell_Shoulder_Press",
+    "name": "Press de hombros",
+    "pattern": "push",
+    "equipment": "Mancuernas",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Desde la altura de los hombros, eleva las pesas sin arquear la espalda. Baja despacio manteniendo las muñecas alineadas.",
+    "muscles": "Hombros",
+    "variants": "Barbell Shoulder Press, Arnold Dumbbell Press",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dumbbell_Shoulder_Press.json",
+    "sourceIds": [
+      "Dumbbell_Shoulder_Press",
+      "Barbell_Shoulder_Press",
+      "Arnold_Dumbbell_Press"
+    ]
+  },
+  {
+    "id": 21,
+    "family": "Side_Lateral_Raise",
+    "name": "Elevación lateral",
+    "pattern": "push",
+    "equipment": "Mancuernas",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Con codos suaves, eleva los brazos hacia los lados hasta una altura cómoda. Evita balancearte o encoger los hombros.",
+    "muscles": "Hombros",
+    "variants": "Lateral Raise - With Bands",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Side_Lateral_Raise.json",
+    "sourceIds": [
+      "Side_Lateral_Raise",
+      "Lateral_Raise_-_With_Bands"
+    ]
+  },
+  {
+    "id": 22,
+    "family": "Front_Dumbbell_Raise",
+    "name": "Elevación frontal",
+    "pattern": "push",
+    "equipment": "Mancuernas",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Eleva las pesas por delante hasta aproximadamente los hombros. Mantén el tronco quieto y baja lentamente.",
+    "muscles": "Hombros",
+    "variants": "Front Plate Raise",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Front_Dumbbell_Raise.json",
+    "sourceIds": [
+      "Front_Dumbbell_Raise",
+      "Front_Plate_Raise"
+    ]
+  },
+  {
+    "id": 23,
+    "family": "Reverse_Flyes",
+    "name": "Apertura posterior",
+    "pattern": "pull",
+    "equipment": "Mancuernas",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Inclina el tronco con la espalda estable y abre los brazos. Usa una carga ligera y evita impulsar con el cuello.",
+    "muscles": "Hombros",
+    "variants": "Cable Rear Delt Fly, Reverse Machine Flyes",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Reverse_Flyes.json",
+    "sourceIds": [
+      "Reverse_Flyes",
+      "Cable_Rear_Delt_Fly",
+      "Reverse_Machine_Flyes"
+    ]
+  },
+  {
+    "id": 24,
+    "family": "Face_Pull",
+    "name": "Face pull",
+    "pattern": "pull",
+    "equipment": "Polea",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Tira de una cuerda hacia la cara separando las manos. Mantén los hombros bajos y vuelve con control.",
+    "muscles": "Hombros",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Face_Pull.json",
+    "sourceIds": [
+      "Face_Pull"
+    ]
+  },
+  {
+    "id": 25,
+    "family": "Pullups",
+    "name": "Dominada",
+    "pattern": "pull",
+    "equipment": "Barra de dominadas",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Desde una suspensión controlada, eleva el cuerpo sin balanceo. Baja lentamente; utiliza asistencia si hace falta.",
+    "muscles": "Dorsales",
+    "variants": "Chin-Up, Band Assisted Pull-Up, Weighted Pull Ups",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Pullups.json",
+    "sourceIds": [
+      "Pullups",
+      "Chin-Up",
+      "Band_Assisted_Pull-Up",
+      "Weighted_Pull_Ups"
+    ]
+  },
+  {
+    "id": 26,
+    "family": "Wide-Grip_Lat_Pulldown",
+    "name": "Jalón al pecho",
+    "pattern": "pull",
+    "equipment": "Polea",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Tira de la barra hacia la parte alta del pecho, nunca detrás del cuello. Mantén el tronco estable y controla el regreso.",
+    "muscles": "Dorsales",
+    "variants": "Close-Grip Front Lat Pulldown, Underhand Cable Pulldowns",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Wide-Grip_Lat_Pulldown.json",
+    "sourceIds": [
+      "Wide-Grip_Lat_Pulldown",
+      "Close-Grip_Front_Lat_Pulldown",
+      "Underhand_Cable_Pulldowns"
+    ]
+  },
+  {
+    "id": 27,
+    "family": "Bent_Over_Barbell_Row",
+    "name": "Remo",
+    "pattern": "pull",
+    "equipment": "Barra",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Inclina el torso desde las caderas y acerca la barra al abdomen. Mantén la espalda estable y evita tirones.",
+    "muscles": "Espalda media",
+    "variants": "One-Arm Dumbbell Row, Seated Cable Rows, Inverted Row",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Bent_Over_Barbell_Row.json",
+    "sourceIds": [
+      "Bent_Over_Barbell_Row",
+      "One-Arm_Dumbbell_Row",
+      "Seated_Cable_Rows",
+      "Inverted_Row"
+    ]
+  },
+  {
+    "id": 28,
+    "family": "Straight-Arm_Dumbbell_Pullover",
+    "name": "Pullover",
+    "pattern": "pull",
+    "equipment": "Mancuernas y banco",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Tumbado en un banco, lleva una pesa detrás de la cabeza con codos suaves. Limita el recorrido para no arquear la espalda.",
+    "muscles": "Pectorales",
+    "variants": "Straight-Arm Pulldown",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Straight-Arm_Dumbbell_Pullover.json",
+    "sourceIds": [
+      "Straight-Arm_Dumbbell_Pullover",
+      "Straight-Arm_Pulldown"
+    ]
+  },
+  {
+    "id": 29,
+    "family": "Dumbbell_Shrug",
+    "name": "Encogimiento de hombros",
+    "pattern": "pull",
+    "equipment": "Mancuernas",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Eleva los hombros hacia arriba sin girarlos. Haz una pausa breve y baja lentamente.",
+    "muscles": "Trapecios",
+    "variants": "Barbell Shrug",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dumbbell_Shrug.json",
+    "sourceIds": [
+      "Dumbbell_Shrug",
+      "Barbell_Shrug"
+    ]
+  },
+  {
+    "id": 30,
+    "family": "Upright_Barbell_Row",
+    "name": "Remo al mentón",
+    "pattern": "pull",
+    "equipment": "Barra",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Con carga ligera, eleva la barra cerca del cuerpo solo hasta un rango cómodo. Evita subir los codos excesivamente.",
+    "muscles": "Hombros",
+    "variants": "Standing Dumbbell Upright Row",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Upright_Barbell_Row.json",
+    "sourceIds": [
+      "Upright_Barbell_Row",
+      "Standing_Dumbbell_Upright_Row"
+    ]
+  },
+  {
+    "id": 31,
+    "family": "Dumbbell_Bicep_Curl",
+    "name": "Curl de bíceps",
+    "pattern": "pull",
+    "equipment": "Mancuernas",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Flexiona los codos sin desplazar los brazos hacia delante. Baja las pesas despacio y evita balancearte.",
+    "muscles": "Bíceps",
+    "variants": "Barbell Curl, Hammer Curls, Preacher Curl, Zottman Curl",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dumbbell_Bicep_Curl.json",
+    "sourceIds": [
+      "Dumbbell_Bicep_Curl",
+      "Barbell_Curl",
+      "Hammer_Curls",
+      "Preacher_Curl",
+      "Zottman_Curl"
+    ]
+  },
+  {
+    "id": 32,
+    "family": "Standing_Dumbbell_Triceps_Extension",
+    "name": "Extensión de tríceps",
+    "pattern": "push",
+    "equipment": "Mancuernas",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Con una pesa ligera sobre la cabeza, flexiona y extiende los codos. Mantén el abdomen activo y evita abrir los codos en exceso.",
+    "muscles": "Tríceps",
+    "variants": "Triceps Pushdown, EZ-Bar Skullcrusher, Tricep Dumbbell Kickback",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Standing_Dumbbell_Triceps_Extension.json",
+    "sourceIds": [
+      "Standing_Dumbbell_Triceps_Extension",
+      "Triceps_Pushdown",
+      "EZ-Bar_Skullcrusher",
+      "Tricep_Dumbbell_Kickback"
+    ]
+  },
+  {
+    "id": 33,
+    "family": "Palms-Up_Dumbbell_Wrist_Curl_Over_A_Bench",
+    "name": "Flexión de muñeca",
+    "pattern": "pull",
+    "equipment": "Mancuernas y banco",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Apoya los antebrazos con las palmas arriba. Flexiona las muñecas suavemente usando una carga ligera.",
+    "muscles": "Antebrazos",
+    "variants": "Cable Wrist Curl",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Palms-Up_Dumbbell_Wrist_Curl_Over_A_Bench.json",
+    "sourceIds": [
+      "Palms-Up_Dumbbell_Wrist_Curl_Over_A_Bench",
+      "Cable_Wrist_Curl"
+    ]
+  },
+  {
+    "id": 34,
+    "family": "Palms-Down_Dumbbell_Wrist_Curl_Over_A_Bench",
+    "name": "Extensión de muñeca",
+    "pattern": "pull",
+    "equipment": "Mancuernas y banco",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Apoya los antebrazos con las palmas abajo. Eleva el dorso de las manos sin levantar los brazos.",
+    "muscles": "Antebrazos",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Palms-Down_Dumbbell_Wrist_Curl_Over_A_Bench.json",
+    "sourceIds": [
+      "Palms-Down_Dumbbell_Wrist_Curl_Over_A_Bench"
+    ]
+  },
+  {
+    "id": 35,
+    "family": "Dumbbell_Lying_Pronation",
+    "name": "Rotación de antebrazo",
+    "pattern": "pull",
+    "equipment": "Mancuernas",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Con el codo apoyado y una carga muy ligera, gira lentamente el antebrazo. Mantén la muñeca recta.",
+    "muscles": "Antebrazos",
+    "variants": "Dumbbell Lying Supination",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dumbbell_Lying_Pronation.json",
+    "sourceIds": [
+      "Dumbbell_Lying_Pronation",
+      "Dumbbell_Lying_Supination"
+    ]
+  },
+  {
+    "id": 36,
+    "family": "Plate_Pinch",
+    "name": "Pinza de discos",
+    "pattern": "carry",
+    "equipment": "Discos",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Sujeta discos ligeros entre los dedos y el pulgar. Mantén los pies alejados de la carga y suelta sobre una superficie segura.",
+    "muscles": "Antebrazos",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Plate_Pinch.json",
+    "sourceIds": [
+      "Plate_Pinch"
+    ]
+  },
+  {
+    "id": 37,
+    "family": "Farmers_Walk",
+    "name": "Paseo del granjero",
+    "pattern": "carry",
+    "equipment": "Mancuernas",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Camina erguido con una pesa a cada lado. Da pasos cortos y controla la respiración sin encoger los hombros.",
+    "muscles": "Antebrazos",
+    "variants": "Rickshaw Carry",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Farmers_Walk.json",
+    "sourceIds": [
+      "Farmers_Walk",
+      "Rickshaw_Carry"
+    ]
+  },
+  {
+    "id": 38,
+    "family": "External_Rotation",
+    "name": "Rotación externa de hombro",
+    "pattern": "pull",
+    "equipment": "Mancuernas",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Mantén el codo pegado al cuerpo y flexionado. Gira el antebrazo hacia fuera con poca resistencia y sin mover el tronco.",
+    "muscles": "Hombros",
+    "variants": "External Rotation with Band, External Rotation with Cable",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/External_Rotation.json",
+    "sourceIds": [
+      "External_Rotation",
+      "External_Rotation_with_Band",
+      "External_Rotation_with_Cable"
+    ]
+  },
+  {
+    "id": 39,
+    "family": "Cable_Internal_Rotation",
+    "name": "Rotación interna de hombro",
+    "pattern": "push",
+    "equipment": "Polea",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Con el codo pegado al costado, lleva el antebrazo hacia el abdomen. Usa resistencia ligera y un rango cómodo.",
+    "muscles": "Hombros",
+    "variants": "Internal Rotation with Band",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Cable_Internal_Rotation.json",
+    "sourceIds": [
+      "Cable_Internal_Rotation",
+      "Internal_Rotation_with_Band"
+    ]
+  },
+  {
+    "id": 40,
+    "family": "Scapular_Pull-Up",
+    "name": "Retracción escapular en suspensión",
+    "pattern": "pull",
+    "equipment": "Barra de dominadas",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Cuelga con los codos extendidos y aleja los hombros de las orejas. El movimiento es corto; no lo conviertas en una dominada.",
+    "muscles": "Trapecios",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Scapular_Pull-Up.json",
+    "sourceIds": [
+      "Scapular_Pull-Up"
+    ]
+  },
+  {
+    "id": 41,
+    "family": "Crunches",
+    "name": "Crunch abdominal",
+    "pattern": "core",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Boca arriba, eleva ligeramente los hombros al acercar las costillas a la pelvis. No tires del cuello.",
+    "muscles": "Abdominales",
+    "variants": "Cable Crunch, Reverse Crunch, Air Bike, Sit-Up",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Crunches.json",
+    "sourceIds": [
+      "Crunches",
+      "Cable_Crunch",
+      "Reverse_Crunch",
+      "Air_Bike",
+      "Sit-Up"
+    ]
+  },
+  {
+    "id": 42,
+    "family": "Plank",
+    "name": "Plancha",
+    "pattern": "core",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Apoya antebrazos y pies, manteniendo el cuerpo alineado. Respira normalmente y termina cuando pierdas la postura.",
+    "muscles": "Abdominales",
+    "variants": "Side Bridge",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Plank.json",
+    "sourceIds": [
+      "Plank",
+      "Side_Bridge"
+    ]
+  },
+  {
+    "id": 43,
+    "family": "Flat_Bench_Lying_Leg_Raise",
+    "name": "Elevación de piernas",
+    "pattern": "core",
+    "equipment": "Banco",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Apoya el tronco y eleva las piernas sin arquear la zona lumbar. Reduce el recorrido o flexiona las rodillas si hace falta.",
+    "muscles": "Abdominales",
+    "variants": "Hanging Leg Raise, Knee/Hip Raise On Parallel Bars",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Flat_Bench_Lying_Leg_Raise.json",
+    "sourceIds": [
+      "Flat_Bench_Lying_Leg_Raise",
+      "Hanging_Leg_Raise",
+      "Knee_Hip_Raise_On_Parallel_Bars"
+    ]
+  },
+  {
+    "id": 44,
+    "family": "Dead_Bug",
+    "name": "Bicho muerto",
+    "pattern": "core",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Boca arriba, extiende brazo y pierna contrarios sin despegar la zona lumbar. Alterna lados despacio.",
+    "muscles": "Abdominales",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dead_Bug.json",
+    "sourceIds": [
+      "Dead_Bug"
+    ]
+  },
+  {
+    "id": 45,
+    "family": "Ab_Roller",
+    "name": "Rueda abdominal",
+    "pattern": "core",
+    "equipment": "Rueda abdominal",
+    "level": 3,
+    "unit": "reps",
+    "instructions": "Desde rodillas, rueda hacia delante solo mientras puedas estabilizar el tronco. Regresa sin hundir la zona lumbar.",
+    "muscles": "Abdominales",
+    "variants": "Barbell Ab Rollout",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Ab_Roller.json",
+    "sourceIds": [
+      "Ab_Roller",
+      "Barbell_Ab_Rollout"
+    ]
+  },
+  {
+    "id": 46,
+    "family": "Russian_Twist",
+    "name": "Giro ruso",
+    "pattern": "core",
+    "equipment": "Sin equipo",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Sentado con pies apoyados, rota el torso suavemente a cada lado. Mantén la espalda larga y evita tirones.",
+    "muscles": "Abdominales",
+    "variants": "Plate Twist",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Russian_Twist.json",
+    "sourceIds": [
+      "Russian_Twist",
+      "Plate_Twist"
+    ]
+  },
+  {
+    "id": 47,
+    "family": "Pallof_Press",
+    "name": "Press Pallof",
+    "pattern": "core",
+    "equipment": "Polea",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "De lado a una polea, empuja el agarre al frente sin girar el tronco. Mantén rodillas suaves y repite por lado.",
+    "muscles": "Abdominales",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Pallof_Press.json",
+    "sourceIds": [
+      "Pallof_Press"
+    ]
+  },
+  {
+    "id": 48,
+    "family": "Standing_Cable_Wood_Chop",
+    "name": "Leñador en polea",
+    "pattern": "core",
+    "equipment": "Polea",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Mueve el agarre en diagonal coordinando caderas y tronco. Usa poca carga y evita retorcer solo la zona lumbar.",
+    "muscles": "Abdominales",
+    "variants": "Standing Cable Lift",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Standing_Cable_Wood_Chop.json",
+    "sourceIds": [
+      "Standing_Cable_Wood_Chop",
+      "Standing_Cable_Lift"
+    ]
+  },
+  {
+    "id": 49,
+    "family": "Dumbbell_Side_Bend",
+    "name": "Flexión lateral del tronco",
+    "pattern": "core",
+    "equipment": "Mancuernas",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Con una pesa a un lado, inclina el torso ligeramente de costado. Vuelve al centro sin girar los hombros.",
+    "muscles": "Abdominales",
+    "variants": "Barbell Side Bend",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dumbbell_Side_Bend.json",
+    "sourceIds": [
+      "Dumbbell_Side_Bend",
+      "Barbell_Side_Bend"
+    ]
+  },
+  {
+    "id": 50,
+    "family": "Superman",
+    "name": "Extensión de espalda",
+    "pattern": "hinge",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Boca abajo, eleva suavemente brazos y piernas con un recorrido pequeño. Mantén el cuello alineado, sin buscar altura máxima.",
+    "muscles": "Zona lumbar",
+    "variants": "Hyperextensions (Back Extensions)",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Superman.json",
+    "sourceIds": [
+      "Superman",
+      "Hyperextensions_Back_Extensions"
+    ]
+  },
+  {
+    "id": 51,
+    "family": "Stomach_Vacuum",
+    "name": "Activación abdominal profunda",
+    "pattern": "core",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "De pie o en cuadrupedia, recoge suavemente el abdomen al exhalar. Continúa respirando sin hacer una apnea prolongada.",
+    "muscles": "Abdominales",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Stomach_Vacuum.json",
+    "sourceIds": [
+      "Stomach_Vacuum"
+    ]
+  },
+  {
+    "id": 52,
+    "family": "One-Arm_Kettlebell_Swings",
+    "name": "Balanceo con pesa rusa",
+    "pattern": "power",
+    "equipment": "Pesa rusa",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Impulsa la pesa con la extensión de cadera, no con los brazos. Mantén la espalda estable; aprende antes la bisagra de cadera.",
+    "muscles": "Isquiotibiales",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/One-Arm_Kettlebell_Swings.json",
+    "sourceIds": [
+      "One-Arm_Kettlebell_Swings"
+    ]
+  },
+  {
+    "id": 53,
+    "family": "Kettlebell_Turkish_Get-Up_Lunge_style",
+    "name": "Levantamiento turco",
+    "pattern": "power",
+    "equipment": "Pesa rusa",
+    "level": 3,
+    "unit": "reps",
+    "instructions": "Desde el suelo, incorpora el cuerpo por etapas manteniendo la carga estable. Practica primero sin peso y con supervisión.",
+    "muscles": "Hombros",
+    "variants": "Kettlebell Turkish Get-Up (Squat style)",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Kettlebell_Turkish_Get-Up_Lunge_style.json",
+    "sourceIds": [
+      "Kettlebell_Turkish_Get-Up_Lunge_style",
+      "Kettlebell_Turkish_Get-Up_Squat_style"
+    ]
+  },
+  {
+    "id": 54,
+    "family": "Kettlebell_Windmill",
+    "name": "Molino con pesa rusa",
+    "pattern": "power",
+    "equipment": "Pesa rusa",
+    "level": 3,
+    "unit": "reps",
+    "instructions": "Con el brazo elevado, desplaza la cadera y baja el tronco con control. Usa un rango pequeño y practica primero sin carga.",
+    "muscles": "Abdominales",
+    "variants": "Advanced Kettlebell Windmill",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Kettlebell_Windmill.json",
+    "sourceIds": [
+      "Kettlebell_Windmill",
+      "Advanced_Kettlebell_Windmill"
+    ]
+  },
+  {
+    "id": 55,
+    "family": "Kettlebell_Halo",
+    "name": "Halo con pesa rusa",
+    "pattern": "core",
+    "equipment": "Pesa rusa",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Rodea lentamente la cabeza con una pesa ligera sujeta por ambas manos. Mantén el tronco estable y alterna direcciones.",
+    "muscles": "Hombros",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Kettlebell_Halo.json",
+    "sourceIds": [
+      "Kettlebell_Halo"
+    ]
+  },
+  {
+    "id": 56,
+    "family": "Kettlebell_Figure_8",
+    "name": "Figura de ocho",
+    "pattern": "power",
+    "equipment": "Pesa rusa",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Pasa una pesa ligera entre las piernas formando un ocho. Flexiona caderas y rodillas y mantén un agarre seguro.",
+    "muscles": "Abdominales",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Kettlebell_Figure_8.json",
+    "sourceIds": [
+      "Kettlebell_Figure_8"
+    ]
+  },
+  {
+    "id": 57,
+    "family": "Power_Clean",
+    "name": "Cargada",
+    "pattern": "power",
+    "equipment": "Barra",
+    "level": 3,
+    "unit": "reps",
+    "instructions": "Eleva la barra con extensión coordinada de piernas y cadera y recíbela en los hombros. Requiere aprendizaje técnico supervisado.",
+    "muscles": "Isquiotibiales",
+    "variants": "Hang Clean, Clean, Dumbbell Clean",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Power_Clean.json",
+    "sourceIds": [
+      "Power_Clean",
+      "Hang_Clean",
+      "Clean",
+      "Dumbbell_Clean"
+    ]
+  },
+  {
+    "id": 58,
+    "family": "Snatch",
+    "name": "Arrancada",
+    "pattern": "power",
+    "equipment": "Barra",
+    "level": 3,
+    "unit": "reps",
+    "instructions": "Lleva la barra del suelo sobre la cabeza con una recepción estable. Practica por fases con un entrenador y carga ligera.",
+    "muscles": "Cuádriceps",
+    "variants": "Power Snatch, Hang Snatch",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Snatch.json",
+    "sourceIds": [
+      "Snatch",
+      "Power_Snatch",
+      "Hang_Snatch"
+    ]
+  },
+  {
+    "id": 59,
+    "family": "Split_Jerk",
+    "name": "Envión",
+    "pattern": "power",
+    "equipment": "Barra",
+    "level": 3,
+    "unit": "reps",
+    "instructions": "Desde los hombros, impulsa la barra con las piernas y recíbela con brazos extendidos. Requiere técnica supervisada.",
+    "muscles": "Cuádriceps",
+    "variants": "Power Jerk, Push Press",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Split_Jerk.json",
+    "sourceIds": [
+      "Split_Jerk",
+      "Power_Jerk",
+      "Push_Press"
+    ]
+  },
+  {
+    "id": 60,
+    "family": "Medicine_Ball_Chest_Pass",
+    "name": "Pase de pecho",
+    "pattern": "power",
+    "equipment": "Balón medicinal",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Empuja el balón desde el pecho hacia una pared apta o un compañero preparado. Deja despejada la trayectoria.",
+    "muscles": "Pectorales",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Medicine_Ball_Chest_Pass.json",
+    "sourceIds": [
+      "Medicine_Ball_Chest_Pass"
+    ]
+  },
+  {
+    "id": 61,
+    "family": "Overhead_Slam",
+    "name": "Lanzamiento al suelo",
+    "pattern": "power",
+    "equipment": "Balón medicinal",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Eleva un balón apto para golpes y lánzalo al suelo frente a ti. Flexiona las piernas y controla el posible rebote.",
+    "muscles": "Dorsales",
+    "variants": "One-Arm Medicine Ball Slam",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Overhead_Slam.json",
+    "sourceIds": [
+      "Overhead_Slam",
+      "One-Arm_Medicine_Ball_Slam"
+    ]
+  },
+  {
+    "id": 62,
+    "family": "Medicine_Ball_Scoop_Throw",
+    "name": "Lanzamiento desde abajo",
+    "pattern": "power",
+    "equipment": "Balón medicinal",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Desde una semiflexión, impulsa el balón hacia delante y arriba con caderas y brazos. Usa una zona despejada.",
+    "muscles": "Hombros",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Medicine_Ball_Scoop_Throw.json",
+    "sourceIds": [
+      "Medicine_Ball_Scoop_Throw"
+    ]
+  },
+  {
+    "id": 63,
+    "family": "Sled_Push",
+    "name": "Empuje de trineo",
+    "pattern": "carry",
+    "equipment": "Trineo",
+    "level": 2,
+    "unit": "seconds",
+    "instructions": "Inclina el cuerpo desde los tobillos y empuja con pasos cortos. Mantén el tronco estable y la trayectoria libre.",
+    "muscles": "Cuádriceps",
+    "variants": "Prowler Sprint",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Sled_Push.json",
+    "sourceIds": [
+      "Sled_Push",
+      "Prowler_Sprint"
+    ]
+  },
+  {
+    "id": 64,
+    "family": "Sled_Drag_-_Harness",
+    "name": "Arrastre de trineo",
+    "pattern": "carry",
+    "equipment": "Trineo",
+    "level": 2,
+    "unit": "seconds",
+    "instructions": "Ajusta el arnés y camina de forma controlada manteniendo tensión. Usa una superficie despejada y una carga moderada.",
+    "muscles": "Cuádriceps",
+    "variants": "Backward Drag",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Sled_Drag_-_Harness.json",
+    "sourceIds": [
+      "Sled_Drag_-_Harness",
+      "Backward_Drag"
+    ]
+  },
+  {
+    "id": 65,
+    "family": "Tire_Flip",
+    "name": "Volteo de neumático",
+    "pattern": "power",
+    "equipment": "Neumático",
+    "level": 3,
+    "unit": "reps",
+    "instructions": "Con técnica supervisada, impulsa un neumático adecuado con piernas y cadera. No intentes levantarlo solo con los brazos.",
+    "muscles": "Cuádriceps",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Tire_Flip.json",
+    "sourceIds": [
+      "Tire_Flip"
+    ]
+  },
+  {
+    "id": 66,
+    "family": "Rope_Climb",
+    "name": "Trepa de cuerda",
+    "pattern": "pull",
+    "equipment": "Cuerda de trepa",
+    "level": 3,
+    "unit": "seconds",
+    "instructions": "Usa una cuerda y colchoneta adecuadas. Aprende a bloquear con los pies y desciende de forma controlada con supervisión.",
+    "muscles": "Dorsales",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Rope_Climb.json",
+    "sourceIds": [
+      "Rope_Climb"
+    ]
+  },
+  {
+    "id": 67,
+    "family": "Battling_Ropes",
+    "name": "Cuerdas de batalla",
+    "pattern": "cardio",
+    "equipment": "Cuerdas de batalla",
+    "level": 2,
+    "unit": "seconds",
+    "instructions": "Con rodillas suaves, crea ondas alternas usando ambas cuerdas. Mantén el tronco estable y un ritmo sostenible.",
+    "muscles": "Hombros",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Battling_Ropes.json",
+    "sourceIds": [
+      "Battling_Ropes"
+    ]
+  },
+  {
+    "id": 68,
+    "family": "Rope_Jumping",
+    "name": "Salto de cuerda",
+    "pattern": "cardio",
+    "equipment": "Comba",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Salta bajo y aterriza suavemente con rodillas flexibles. Gira la cuerda con las muñecas y progresa poco a poco.",
+    "muscles": "Cuádriceps",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Rope_Jumping.json",
+    "sourceIds": [
+      "Rope_Jumping"
+    ]
+  },
+  {
+    "id": 69,
+    "family": "Walking_Treadmill",
+    "name": "Caminata",
+    "pattern": "cardio",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Camina a un ritmo que permita hablar, en una superficie segura. Mantén una postura erguida y pasos naturales.",
+    "muscles": "Cuádriceps",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Walking_Treadmill.json",
+    "sourceIds": [
+      "Walking_Treadmill"
+    ]
+  },
+  {
+    "id": 70,
+    "family": "Running_Treadmill",
+    "name": "Carrera",
+    "pattern": "cardio",
+    "equipment": "Sin equipo",
+    "level": 2,
+    "unit": "seconds",
+    "instructions": "Corre a un ritmo sostenible y aumenta el tiempo gradualmente. Alterna con caminata si pierdes comodidad.",
+    "muscles": "Cuádriceps",
+    "variants": "Jogging, Treadmill, Wind Sprints",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Running_Treadmill.json",
+    "sourceIds": [
+      "Running_Treadmill",
+      "Jogging_Treadmill",
+      "Wind_Sprints"
+    ]
+  },
+  {
+    "id": 71,
+    "family": "Bicycling",
+    "name": "Ciclismo",
+    "pattern": "cardio",
+    "equipment": "Bicicleta",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Ajusta el sillín para no bloquear la rodilla al pedalear. Mantén un ritmo cómodo y evita encorvar los hombros.",
+    "muscles": "Cuádriceps",
+    "variants": "Bicycling, Stationary, Recumbent Bike",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Bicycling.json",
+    "sourceIds": [
+      "Bicycling",
+      "Bicycling_Stationary",
+      "Recumbent_Bike"
+    ]
+  },
+  {
+    "id": 72,
+    "family": "Rowing_Stationary",
+    "name": "Remo cardiovascular",
+    "pattern": "cardio",
+    "equipment": "Remo ergómetro",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Empuja primero con las piernas, abre la cadera y después tira con los brazos. Regresa invirtiendo ese orden.",
+    "muscles": "Cuádriceps",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Rowing_Stationary.json",
+    "sourceIds": [
+      "Rowing_Stationary"
+    ]
+  },
+  {
+    "id": 73,
+    "family": "Elliptical_Trainer",
+    "name": "Elíptica",
+    "pattern": "cardio",
+    "equipment": "Elíptica",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Apoya completamente los pies y pedalea con movimiento continuo. Mantén el torso erguido sin cargar el peso en las manos.",
+    "muscles": "Cuádriceps",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Elliptical_Trainer.json",
+    "sourceIds": [
+      "Elliptical_Trainer"
+    ]
+  },
+  {
+    "id": 74,
+    "family": "Stairmaster",
+    "name": "Subida de escaleras",
+    "pattern": "cardio",
+    "equipment": "Escalera",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Sube escalones con apoyo completo del pie y ritmo controlado. Usa la barandilla para equilibrio, no para colgarte.",
+    "muscles": "Cuádriceps",
+    "variants": "Step Mill",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Stairmaster.json",
+    "sourceIds": [
+      "Stairmaster",
+      "Step_Mill"
+    ]
+  },
+  {
+    "id": 75,
+    "family": "Skating",
+    "name": "Patinaje",
+    "pattern": "cardio",
+    "equipment": "Patines",
+    "level": 2,
+    "unit": "seconds",
+    "instructions": "Deslízate en una superficie lisa y segura con protección adecuada. Mantén rodillas suaves y practica frenado antes de aumentar velocidad.",
+    "muscles": "Cuádriceps",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Skating.json",
+    "sourceIds": [
+      "Skating"
+    ]
+  },
+  {
+    "id": 76,
+    "family": "Mountain_Climbers",
+    "name": "Escaladores",
+    "pattern": "cardio",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Desde apoyo de manos, acerca una rodilla y después la otra. Mantén la cadera estable y empieza lentamente.",
+    "muscles": "Cuádriceps",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Mountain_Climbers.json",
+    "sourceIds": [
+      "Mountain_Climbers"
+    ]
+  },
+  {
+    "id": 77,
+    "family": "Inchworm",
+    "name": "Caminata del gusano",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Flexiona la cadera y camina con las manos hasta una plancha. Acerca los pies con pasos cortos sin forzar la espalda.",
+    "muscles": "Isquiotibiales",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Inchworm.json",
+    "sourceIds": [
+      "Inchworm"
+    ]
+  },
+  {
+    "id": 78,
+    "family": "Carioca_Quick_Step",
+    "name": "Paso cruzado lateral",
+    "pattern": "cardio",
+    "equipment": "Sin equipo",
+    "level": 2,
+    "unit": "seconds",
+    "instructions": "Desplázate de lado cruzando los pies por delante y detrás. Empieza despacio con espacio suficiente para no tropezar.",
+    "muscles": "Aductores",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Carioca_Quick_Step.json",
+    "sourceIds": [
+      "Carioca_Quick_Step"
+    ]
+  },
+  {
+    "id": 79,
+    "family": "Standing_Long_Jump",
+    "name": "Salto horizontal",
+    "pattern": "power",
+    "equipment": "Sin equipo",
+    "level": 2,
+    "unit": "reps",
+    "instructions": "Flexiona caderas y rodillas y salta hacia delante. Aterriza con ambos pies suavemente y estabiliza antes de repetir.",
+    "muscles": "Cuádriceps",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Standing_Long_Jump.json",
+    "sourceIds": [
+      "Standing_Long_Jump"
+    ]
+  },
+  {
+    "id": 80,
+    "family": "Box_Jump_Multiple_Response",
+    "name": "Salto al cajón",
+    "pattern": "power",
+    "equipment": "Cajón",
+    "level": 3,
+    "unit": "reps",
+    "instructions": "Usa un cajón bajo y firme. Salta y aterriza con control; baja caminando para reiniciar cada repetición.",
+    "muscles": "Isquiotibiales",
+    "variants": "Front Box Jump, Lateral Box Jump",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Box_Jump_Multiple_Response.json",
+    "sourceIds": [
+      "Box_Jump_Multiple_Response",
+      "Front_Box_Jump",
+      "Lateral_Box_Jump"
+    ]
+  },
+  {
+    "id": 81,
+    "family": "Balance_Board",
+    "name": "Equilibrio en tabla",
+    "pattern": "balance",
+    "equipment": "Tabla de equilibrio",
+    "level": 2,
+    "unit": "seconds",
+    "instructions": "Colócate cerca de un apoyo estable y mantén el equilibrio con rodillas suaves. Empieza con ambos pies.",
+    "muscles": "Pantorrillas",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Balance_Board.json",
+    "sourceIds": [
+      "Balance_Board"
+    ]
+  },
+  {
+    "id": 82,
+    "family": "Ankle_Circles",
+    "name": "Círculos de tobillo",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Sentado, eleva un pie y dibuja círculos lentos con el tobillo. Repite en ambos sentidos y por lado.",
+    "muscles": "Pantorrillas",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Ankle_Circles.json",
+    "sourceIds": [
+      "Ankle_Circles"
+    ]
+  },
+  {
+    "id": 83,
+    "family": "Arm_Circles",
+    "name": "Círculos de brazos",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "Abre los brazos y realiza círculos pequeños y lentos. Amplía solo hasta un rango cómodo.",
+    "muscles": "Hombros",
+    "variants": "Shoulder Circles",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Arm_Circles.json",
+    "sourceIds": [
+      "Arm_Circles",
+      "Shoulder_Circles"
+    ]
+  },
+  {
+    "id": 84,
+    "family": "Standing_Hip_Circles",
+    "name": "Círculos de cadera",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "De pie con apoyo, dibuja círculos pequeños con la cadera. Mantén el movimiento suave en ambos sentidos.",
+    "muscles": "Abductores",
+    "variants": "Hip Circles (prone)",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Standing_Hip_Circles.json",
+    "sourceIds": [
+      "Standing_Hip_Circles",
+      "Hip_Circles_prone"
+    ]
+  },
+  {
+    "id": 85,
+    "family": "Cat_Stretch",
+    "name": "Gato y camello",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "reps",
+    "instructions": "En cuadrupedia, redondea y extiende suavemente la espalda coordinando la respiración. No fuerces los extremos.",
+    "muscles": "Zona lumbar",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Cat_Stretch.json",
+    "sourceIds": [
+      "Cat_Stretch"
+    ]
+  },
+  {
+    "id": 86,
+    "family": "Childs_Pose",
+    "name": "Postura del niño",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Desde rodillas, lleva las caderas hacia los talones y alarga los brazos. Ajusta la separación de rodillas para estar cómodo.",
+    "muscles": "Zona lumbar",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Childs_Pose.json",
+    "sourceIds": [
+      "Childs_Pose"
+    ]
+  },
+  {
+    "id": 87,
+    "family": "Hamstring_Stretch",
+    "name": "Estiramiento de isquiotibiales",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Extiende una pierna e inclina el torso desde la cadera hasta notar tensión suave detrás del muslo. No rebotes.",
+    "muscles": "Isquiotibiales",
+    "variants": "Seated Floor Hamstring Stretch, 90/90 Hamstring",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Hamstring_Stretch.json",
+    "sourceIds": [
+      "Hamstring_Stretch",
+      "Seated_Floor_Hamstring_Stretch",
+      "90_90_Hamstring"
+    ]
+  },
+  {
+    "id": 88,
+    "family": "Quad_Stretch",
+    "name": "Estiramiento de cuádriceps",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Con apoyo estable, acerca un talón al glúteo sin arquear la espalda. Mantén las rodillas próximas y cambia de lado.",
+    "muscles": "Cuádriceps",
+    "variants": "All Fours Quad Stretch",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Quad_Stretch.json",
+    "sourceIds": [
+      "Quad_Stretch",
+      "All_Fours_Quad_Stretch"
+    ]
+  },
+  {
+    "id": 89,
+    "family": "Kneeling_Hip_Flexor",
+    "name": "Estiramiento de flexores de cadera",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "En media rodilla, recoge ligeramente la pelvis y avanza suavemente. Debes sentir la parte frontal de la cadera, sin dolor lumbar.",
+    "muscles": "Cuádriceps",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Kneeling_Hip_Flexor.json",
+    "sourceIds": [
+      "Kneeling_Hip_Flexor"
+    ]
+  },
+  {
+    "id": 90,
+    "family": "Standing_Gastrocnemius_Calf_Stretch",
+    "name": "Estiramiento de pantorrilla",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Frente a una pared, retrasa una pierna manteniendo el talón apoyado. Inclina el cuerpo suavemente y cambia de lado.",
+    "muscles": "Pantorrillas",
+    "variants": "Standing Soleus And Achilles Stretch",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Standing_Gastrocnemius_Calf_Stretch.json",
+    "sourceIds": [
+      "Standing_Gastrocnemius_Calf_Stretch",
+      "Standing_Soleus_And_Achilles_Stretch"
+    ]
+  },
+  {
+    "id": 91,
+    "family": "Adductor_Groin",
+    "name": "Estiramiento de aductores",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Sentado con las plantas juntas, deja que las rodillas se abran sin presionarlas. Mantén la espalda alargada.",
+    "muscles": "Aductores",
+    "variants": "Side Lying Groin Stretch",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Adductor_Groin.json",
+    "sourceIds": [
+      "Adductor_Groin",
+      "Side_Lying_Groin_Stretch"
+    ]
+  },
+  {
+    "id": 92,
+    "family": "Seated_Glute",
+    "name": "Estiramiento de glúteos",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Cruza un tobillo sobre la rodilla contraria e inclina ligeramente el torso. No fuerces la rodilla y repite por lado.",
+    "muscles": "Glúteos",
+    "variants": "Ankle On The Knee, Lying Glute",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Seated_Glute.json",
+    "sourceIds": [
+      "Seated_Glute",
+      "Ankle_On_The_Knee",
+      "Lying_Glute"
+    ]
+  },
+  {
+    "id": 93,
+    "family": "Chest_And_Front_Of_Shoulder_Stretch",
+    "name": "Estiramiento de pectoral",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Coloca el brazo sobre un apoyo y gira suavemente el torso en sentido contrario. Mantén el hombro relajado.",
+    "muscles": "Pectorales",
+    "variants": "Behind Head Chest Stretch",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Chest_And_Front_Of_Shoulder_Stretch.json",
+    "sourceIds": [
+      "Chest_And_Front_Of_Shoulder_Stretch",
+      "Behind_Head_Chest_Stretch"
+    ]
+  },
+  {
+    "id": 94,
+    "family": "Shoulder_Stretch",
+    "name": "Estiramiento posterior de hombro",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Cruza un brazo frente al pecho y acompáñalo con el otro sin presionar el codo. Mantén el hombro bajo.",
+    "muscles": "Hombros",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Shoulder_Stretch.json",
+    "sourceIds": [
+      "Shoulder_Stretch"
+    ]
+  },
+  {
+    "id": 95,
+    "family": "Triceps_Stretch",
+    "name": "Estiramiento de tríceps",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Eleva un brazo, flexiona el codo y guía suavemente el brazo con la otra mano. Evita arquear la espalda.",
+    "muscles": "Tríceps",
+    "variants": "Overhead Triceps",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Triceps_Stretch.json",
+    "sourceIds": [
+      "Triceps_Stretch",
+      "Overhead_Triceps"
+    ]
+  },
+  {
+    "id": 96,
+    "family": "Standing_Biceps_Stretch",
+    "name": "Estiramiento de bíceps",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Lleva el brazo ligeramente detrás del cuerpo con el codo extendido. Busca tensión leve y evita forzar el hombro.",
+    "muscles": "Bíceps",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Standing_Biceps_Stretch.json",
+    "sourceIds": [
+      "Standing_Biceps_Stretch"
+    ]
+  },
+  {
+    "id": 97,
+    "family": "Kneeling_Forearm_Stretch",
+    "name": "Estiramiento de antebrazos",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Apoya las manos y desplaza suavemente el cuerpo hasta notar tensión en los antebrazos. Reduce la carga si molesta la muñeca.",
+    "muscles": "Antebrazos",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Kneeling_Forearm_Stretch.json",
+    "sourceIds": [
+      "Kneeling_Forearm_Stretch"
+    ]
+  },
+  {
+    "id": 98,
+    "family": "Side_Neck_Stretch",
+    "name": "Estiramiento lateral del cuello",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Inclina suavemente la cabeza hacia un lado manteniendo los hombros relajados. No tires de la cabeza con fuerza.",
+    "muscles": "Cuello",
+    "variants": "",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Side_Neck_Stretch.json",
+    "sourceIds": [
+      "Side_Neck_Stretch"
+    ]
+  },
+  {
+    "id": 99,
+    "family": "Middle_Back_Stretch",
+    "name": "Estiramiento dorsal",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Entrelaza las manos al frente y aleja los brazos redondeando suavemente la espalda alta. Respira sin forzar el cuello.",
+    "muscles": "Espalda media",
+    "variants": "Upper Back Stretch",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Middle_Back_Stretch.json",
+    "sourceIds": [
+      "Middle_Back_Stretch",
+      "Upper_Back_Stretch"
+    ]
+  },
+  {
+    "id": 100,
+    "family": "Spinal_Stretch",
+    "name": "Rotación suave de columna",
+    "pattern": "mobility",
+    "equipment": "Sin equipo",
+    "level": 1,
+    "unit": "seconds",
+    "instructions": "Tumbado, gira suavemente las rodillas hacia un lado manteniendo los hombros apoyados. Usa un recorrido cómodo.",
+    "muscles": "Espalda media",
+    "variants": "Lying Crossover",
+    "source": "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Spinal_Stretch.json",
+    "sourceIds": [
+      "Spinal_Stretch",
+      "Lying_Crossover"
+    ]
+  }
+]
