@@ -39,9 +39,21 @@ class AppSmokeTest {
     private fun screenshot(name:String) {
         val instrumentation=InstrumentationRegistry.getInstrumentation()
         instrumentation.waitForIdleSync()
-        val image=instrumentation.uiAutomation.takeScreenshot()
-        val folder=File(instrumentation.targetContext.getExternalFilesDir(null),"screenshots").apply { mkdirs() }
-        File(folder,"$name.png").outputStream().use { image.compress(Bitmap.CompressFormat.PNG,100,it) }
+        val command = "screencap -p /sdcard/Download/hunter-$name.png"
+        android.os.ParcelFileDescriptor.AutoCloseInputStream(instrumentation.uiAutomation.executeShellCommand(command)).use { it.readBytes() }
+    }
+    private fun confirmDialog(text:String) {
+        // Exercise the exact dialog button callback, independent of emulator coordinate races after recreation.
+        androidx.test.espresso.Espresso.onView(androidx.test.espresso.matcher.ViewMatchers.withText(text))
+            .inRoot(androidx.test.espresso.matcher.RootMatchers.isDialog())
+            .perform(object: androidx.test.espresso.ViewAction {
+                override fun getDescription() = "Activate the dialog button"
+                override fun getConstraints(): org.hamcrest.Matcher<View> = androidx.test.espresso.matcher.ViewMatchers.isAssignableFrom(Button::class.java)
+                override fun perform(ui: androidx.test.espresso.UiController, view: View) {
+                    assertTrue(view.performClick())
+                    ui.loopMainThreadUntilIdle()
+                }
+            })
     }
     @Test fun browseGenerateLogAndRestore() {
         val context=InstrumentationRegistry.getInstrumentation().targetContext
@@ -54,8 +66,7 @@ class AppSmokeTest {
             waitFor(s,"1 ejercicios encontrados"); screenshot("02-library")
             s.onActivity { it.findViewById<Button>(R.id.navRoutines).performClick(); click(it,"Generar rutina") }
             // Dialog windows are outside activity decor; Espresso addresses the active window.
-            androidx.test.espresso.Espresso.onView(androidx.test.espresso.matcher.ViewMatchers.withText("Generar"))
-                .perform(androidx.test.espresso.action.ViewActions.click())
+            confirmDialog("Generar")
             waitFor(s,"Abrir rutina")
             s.onActivity { click(it,"Abrir rutina") }
             waitFor(s,"Iniciar entrenamiento"); screenshot("03-routine")
@@ -65,8 +76,7 @@ class AppSmokeTest {
             waitFor(s,"1 / "); s.recreate(); waitFor(s,"MISIÓN EN CURSO")
             screenshot("04-session")
             s.onActivity { click(it,"Finalizar sesión") }
-            androidx.test.espresso.Espresso.onView(androidx.test.espresso.matcher.ViewMatchers.withText("Guardar"))
-                .perform(androidx.test.espresso.action.ViewActions.click())
+            confirmDialog("Guardar")
             waitFor(s,"Tu evolución"); waitFor(s,"10 XP"); screenshot("05-progress")
             s.recreate(); waitFor(s,"Tu evolución"); waitFor(s,"10 XP")
         }
